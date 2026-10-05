@@ -109,7 +109,7 @@ Apple 没有公开规则。能确定的只有一点：这是防盗刷的自动�
 
 美区支持页只有英语和西班牙语，聊天用英语，旁边开个翻译就行。过程中如果要求登录，用出问题的那个 Apple 账户。
 
-**1. 打开 [support.apple.com/billing](https://support.apple.com/billing)，拉到页面最下面，在 Still need help? 下面点 Get started。** 也可以直接打开 [getsupport.apple.com/?caller=psp](https://getsupport.apple.com/?caller=psp)，它就是 Get started 指向的页面。
+**1. 打开 [support.apple.com/billing](https://support.apple.com/billing)，拉到页面最下面，在 Still need help? 下面点 Get started。**
 
 <p align="center">
   <img src="./images/03-support-get-started.webp" width="640" alt="support.apple.com/billing 页面底部的 Still need help? 区域，点 Get started">
@@ -169,10 +169,10 @@ Apple 没有公开规则。能确定的只有一点：这是防盗刷的自动�
 I can't subscribe to ChatGPT Plus in the ChatGPT iOS app with my Apple Account balance.
 The message says: "Purchase Not Completed. Submit a request to Apple Support for review."
 My balance is enough for the subscription. Please check whether there is a restriction
-on my account and help me complete this purchase.
+on my account and help me complete this purchase. Thank you!
 ~~~
 
-> 意思：我没法在 ChatGPT iOS App 里用 Apple 账户余额订阅 ChatGPT Plus，提示是「购买未完成，提交申请至 Apple 支持以供审核」。余额足够。请帮我看看账户是否有限制，并协助完成购买。
+> 意思：我没法在 ChatGPT iOS App 里用 Apple 账户余额订阅 ChatGPT Plus，提示是「购买未完成，提交申请至 Apple 支持以供审核」。余额足够。请帮我看看账户是否有限制，并协助完成购买。谢谢！
 
 订 Pro 的把 `Plus` 改成 `Pro`。看到的是另一句报错，就把引号里换成你看到的那一句。表单提示不要填银行卡号、密码这类信息，这段模板里没有。
 
@@ -183,7 +183,7 @@ on my account and help me complete this purchase.
 </p>
 <p align="center"><sub>图 10：作者和 Apple 在线客服的对话。客服说已经调整了账户，让 48 小时后再试，这期间不要做任何购买。</sub></p>
 
-不想打字聊天的话也可以打电话，各地区号码见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
+不想打字聊天的话也可以打电话。Apple 中国大陆的官方电话是 400-666-8800，其他地区的号码见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
 
 ### 第 3 步：等 48–72 小时
 
@@ -204,16 +204,6 @@ on my account and help me complete this purchase.
 
 ## 聊天时用得上的话
 
-方括号里的内容照实填。别编造礼品卡来源或地址，客服看得到账户记录。
-
-**客服问礼品卡是哪来的**
-
-~~~text
-I bought the gift card from [where you bought it] and redeemed it to this account myself.
-~~~
-
-> 意思：礼品卡是我在 [购买渠道] 买的，自己兑换到这个账户里。
-
 **客服处理完，问清楚要等多久**
 
 ~~~text
@@ -223,16 +213,16 @@ Should I avoid making any purchases during that time?
 
 > 意思：谢谢。我需要等多久再试？这期间是不是不要做任何购买？
 
-**等满时间还是失败，第二次联系**（同样走上面 7 步，把这段填进 Additional Details）
+**等满时间还是失败，第二次联系**（同样走上面 7 步，把这段填进 Additional Details，方括号里换成你的实际情况）
 
 ~~~text
 I contacted Apple Support on [date] about "Purchase Not Completed" when subscribing
 to ChatGPT. I was told to wait [48/72] hours and I did not make any purchases during
 that time. I tried again today and got the same message. Could you please check the
-status of the review?
+status of the review? Thank you!
 ~~~
 
-> 意思：我在 [日期] 因为订阅 ChatGPT 时提示「购买未完成」联系过你们，按要求等了 [48/72] 小时，期间没有做任何购买。今天再试还是同样的提示，请帮我查一下审核进度。
+> 意思：我在 [日期] 因为订阅 ChatGPT 时提示「购买未完成」联系过你们，按要求等了 [48/72] 小时，期间没有做任何购买。今天再试还是同样的提示，请帮我查一下审核进度。谢谢！
 
 客服可能会问姓名、Apple 账户邮箱、账单地址这类信息来核实身份，照实回答。
 
@@ -355,7 +345,7 @@ status of the review?
 <details>
 <summary><strong>Apple 客服能用中文吗？</strong></summary>
 
-美区账户要找美区支持，支持页只提供英语和西班牙语。用英语聊天，开着翻译就够，上面的模板可以直接发。
+在线聊天走的是美区支持页，只有英语和西班牙语，开着翻译聊就够，上面的模板可以直接发。想说中文可以打 Apple 中国大陆的官方电话 400-666-8800。
 
 </details>
 
@@ -378,7 +368,7 @@ If the ChatGPT iOS app shows **"Purchase Not Completed. Submit a request to Appl
 
 ## 资料来源
 
-**Apple：** [Billing and Subscriptions](https://support.apple.com/billing) · [Get Support](https://getsupport.apple.com/?caller=psp) · [Contact Apple Support](https://support.apple.com/en-us/106932) · Apple 社区：[Purchase Not Completed. Contact Apple Support for assistance.](https://discussions.apple.com/thread/256326371) · [Failed purchase of ChatGPT Plus with Apple Gift Card](https://discussions.apple.com/thread/256335168)
+**Apple：** [Billing and Subscriptions](https://support.apple.com/billing) · [Contact Apple Support](https://support.apple.com/en-us/106932) · Apple 社区：[Purchase Not Completed. Contact Apple Support for assistance.](https://discussions.apple.com/thread/256326371) · [Failed purchase of ChatGPT Plus with Apple Gift Card](https://discussions.apple.com/thread/256335168)
 
 **用户案例（LINUX DO）：** [Apple 礼品卡充值 GPT Plus 失败的一个解决方法](https://linux.do/t/topic/2848813)（9 月 2 日） · [Apple ID 订阅 GPT，提示提交申请至 Apple 支持以供审核](https://linux.do/t/topic/2924589)（9 月 19 日）
 
