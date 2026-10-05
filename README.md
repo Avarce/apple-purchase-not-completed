@@ -166,7 +166,10 @@ Apple 没有公开规则。能确定的只有一点：这是防盗刷的自动�
 | Additional Details | 粘贴下面这段 |
 
 ~~~text
-I can't subscribe to ChatGPT Plus in the ChatGPT iOS app with my Apple Account balance. The message says: "Purchase Not Completed. Submit a request to Apple Support for review." My balance is enough for the subscription. Please check whether there is a restriction on my account and help me complete this purchase.
+I can't subscribe to ChatGPT Plus in the ChatGPT iOS app with my Apple Account balance.
+The message says: "Purchase Not Completed. Submit a request to Apple Support for review."
+My balance is enough for the subscription. Please check whether there is a restriction
+on my account and help me complete this purchase.
 ~~~
 
 > 意思：我没法在 ChatGPT iOS App 里用 Apple 账户余额订阅 ChatGPT Plus，提示是「购买未完成，提交申请至 Apple 支持以供审核」。余额足够。请帮我看看账户是否有限制，并协助完成购买。
@@ -223,7 +226,10 @@ Should I avoid making any purchases during that time?
 **等满时间还是失败，第二次联系**（同样走上面 7 步，把这段填进 Additional Details）
 
 ~~~text
-I contacted Apple Support on [date] about "Purchase Not Completed" when subscribing to ChatGPT. I was told to wait [48/72] hours and I did not make any purchases during that time. I tried again today and got the same message. Could you please check the status of the review?
+I contacted Apple Support on [date] about "Purchase Not Completed" when subscribing
+to ChatGPT. I was told to wait [48/72] hours and I did not make any purchases during
+that time. I tried again today and got the same message. Could you please check the
+status of the review?
 ~~~
 
 > 意思：我在 [日期] 因为订阅 ChatGPT 时提示「购买未完成」联系过你们，按要求等了 [48/72] 小时，期间没有做任何购买。今天再试还是同样的提示，请帮我查一下审核进度。
