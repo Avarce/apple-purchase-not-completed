@@ -3,7 +3,7 @@
 ![Updated](https://img.shields.io/badge/updated-2026--10--18-blue)
 ![Applies](https://img.shields.io/badge/applies%20to-ChatGPT%20Plus%20%2F%20Pro-success)
 
-> **最后更新：2026 年 10 月 20 日（北京时间）** · Support PIN 换成作者本人的截图，红框标出「支持 PIN」在页面哪里。报错原文和 Apple 支持页的入口 10 月 5 日核对，案例补到 10 月 12 日。案例来自作者本人和公开帖子，都标了日期和出处。
+> **最后更新：2026 年 10 月 20 日（北京时间）** · 在线客服的步骤按实际顺序排好：填表提交，给 Support PIN，客服处理完告诉你等多久；Support PIN 换成作者本人的截图，红框标出「支持 PIN」在页面哪里。报错原文和 Apple 支持页的入口 10 月 5 日核对，案例补到 10 月 12 日。案例来自作者本人和公开帖子，都标了日期和出处。
 
 用美区礼品卡余额在 iPhone 上订阅 ChatGPT Plus 或 Pro，付款时弹出「购买未完成，提交申请至 Apple 支持以供审核」，或者英文的 Purchase Not Completed、Your Purchase Could Not Be Completed。这篇讲它是什么、该怎么处理、要等多久。
 
@@ -183,12 +183,30 @@ on my account and help me complete this purchase. Thank you!
 
 订 Pro 的把 `Plus` 改成 `Pro`。看到的是另一句报错，就把引号里换成你看到的那一句。表单提示不要填银行卡号、密码这类信息，这段模板里没有。
 
-提交后进入聊天。客服可能会先核实身份，然后告诉你等多久，对话里用得上的句子见[聊天时用得上的话](#聊天时用得上的话)。作者当时得到的答复：
+**8. 进入聊天后，客服会要一个 Support PIN，用来确认是你本人。**
+
+客服会发来生成 PIN 的步骤（图 10）。在 [account.apple.com](https://account.apple.com/) 登录出问题的账户，拉到页面最下面，点左下角的 Support PIN（中文界面叫「支持 PIN」，图 11 红框），再点 Generate PIN（生成 PIN），把生成的 4 位数字发给客服。这个 PIN 只能用一次，不能拿来登录你的账户。Apple 不会向你要密码和验证码，有人要就别给（[Apple 说明](https://support.apple.com/en-us/102425)）。
+
+<p align="center">
+  <img src="./images/11-apple-chat-support-pin.webp" width="420" alt="Apple 在线客服要求提供 Support PIN 的步骤：打开 account.apple.com，拉到页面最下面点 Support PIN，再点 Generate PIN，把 PIN 发给客服。邮箱和 PIN 已打码">
+</p>
+<p align="center"><sub>图 10：客服要 Support PIN 时发来的步骤。作者本人的对话，邮箱和 PIN 已打码。</sub></p>
+
+<p align="center">
+  <img src="./images/12-account-support-pin.webp" width="720" alt="account.apple.com 的「登录与安全性」页面，左下角红框标出「支持 PIN」，邮箱已打码">
+</p>
+<p align="center"><sub>图 11：登录 account.apple.com，拉到页面最下面，左下角就是「支持 PIN」（英文界面叫 Support PIN），点开后再点「生成 PIN」。作者本人账户的截图，邮箱已打码。</sub></p>
+
+客服也可能顺带问姓名、Apple 账户邮箱、账单地址，照实回答。有时客服不要 PIN，而是往登录着这个账户的设备发一条「Apple 账户确认信息」，点「确认」就行。没有联系 Apple 却收到这条，点「不确认」。
+
+**9. 核实完，客服帮你处理，然后告诉你要等多久。**
+
+记得问清楚这段时间能不能做购买，句子见[聊天时用得上的话](#聊天时用得上的话)。作者当时得到的答复：
 
 <p align="center">
   <img src="./images/10-apple-chat-wait-48-hours.webp" width="420" alt="Apple 在线客服回复：已对 App Store 账户做了必要调整，请 48 小时后再尝试购买，期间不要进行任何购买">
 </p>
-<p align="center"><sub>图 10：作者和 Apple 在线客服的对话。客服说已经调整了账户，让 48 小时后再试，这期间不要做任何购买。</sub></p>
+<p align="center"><sub>图 12：作者和 Apple 在线客服的对话。客服说已经调整了账户，让 48 小时后再试，这期间不要做任何购买。</sub></p>
 
 不想打字聊天的话也可以打电话。Apple 中国大陆的官方电话是 400-666-8800，其他地区的号码见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
 
@@ -220,7 +238,7 @@ Should I avoid making any purchases during that time?
 
 > 意思：谢谢。我需要等多久再试？这期间是不是不要做任何购买？
 
-**等满时间还是失败，第二次联系**（同样走上面 7 步，把这段填进 Additional Details，方括号里换成你的实际情况）
+**等满时间还是失败，第二次联系**（同样按上面第 1 至 7 步打开表单，把这段填进 Additional Details，方括号里换成你的实际情况）
 
 ~~~text
 I contacted Apple Support on [date] about "Purchase Not Completed" when subscribing
@@ -230,22 +248,6 @@ status of the review? Thank you!
 ~~~
 
 > 意思：我在 [日期] 因为订阅 ChatGPT 时提示「购买未完成」联系过你们，按要求等了 [48/72] 小时，期间没有做任何购买。今天再试还是同样的提示，请帮我查一下审核进度。谢谢！
-
-客服可能会问姓名、Apple 账户邮箱、账单地址这类信息来核实身份，照实回答。
-
-有的客服会要一个 Support PIN。在 [account.apple.com](https://account.apple.com/) 登录出问题的账户，拉到页面最下面点 Support PIN（中文界面叫「支持 PIN」），再点 Generate PIN，把生成的 4 位数字发给客服。这个 PIN 只能用一次，不能拿来登录你的账户。Apple 不会向你要密码和验证码，有人要就别给（[Apple 说明](https://support.apple.com/en-us/102425)）。
-
-<p align="center">
-  <img src="./images/11-apple-chat-support-pin.webp" width="420" alt="Apple 在线客服要求提供 Support PIN 的步骤：打开 account.apple.com，拉到页面最下面点 Support PIN，再点 Generate PIN，把 PIN 发给客服。邮箱和 PIN 已打码">
-</p>
-<p align="center"><sub>图 11：客服要 Support PIN 时发来的步骤。作者本人的对话，邮箱和 PIN 已打码。</sub></p>
-
-<p align="center">
-  <img src="./images/12-account-support-pin.webp" width="720" alt="account.apple.com 的「登录与安全性」页面，左下角红框标出「支持 PIN」，邮箱已打码">
-</p>
-<p align="center"><sub>图 12：登录 account.apple.com，拉到页面最下面，左下角就是「支持 PIN」（英文界面叫 Support PIN），点开后再点「生成 PIN」。作者本人账户的截图，邮箱已打码。</sub></p>
-
-有时客服不要 PIN，而是往登录着这个账户的设备发一条「Apple 账户确认信息」，点「确认」就行。没有联系 Apple 却收到这条，点「不确认」。
 
 ## 等待期间能做什么
 
@@ -262,13 +264,13 @@ status of the review? Thank you!
 - 正常用手机，继续用已经生效的订阅和 ChatGPT 免费版。
 - 用不经过这个 Apple 账户的渠道开通。
 
-「不要做任何购买」是客服的原话（图 10）。「每试一次重新计时」和「中途兑换礼品卡也会重新计时」是用户的说法（[出处](https://linux.do/t/topic/2848813)），我们没法验证，按保守的来。不改账户资料是我们的建议，审核期间账户变动越少越好。
+「不要做任何购买」是客服的原话（图 12）。「每试一次重新计时」和「中途兑换礼品卡也会重新计时」是用户的说法（[出处](https://linux.do/t/topic/2848813)），我们没法验证，按保守的来。不改账户资料是我们的建议，审核期间账户变动越少越好。
 
 ## 要等多久：13 个案例
 
 | 日期（2026） | 订阅什么 | 怎么处理的 | 结果 |
 | --- | --- | --- | --- |
-| 作者本人 | — | 找在线客服说明情况 | 客服调整了账户，让等 48 小时，期间不要购买（图 10） |
+| 作者本人 | — | 找在线客服说明情况 | 客服调整了账户，让等 48 小时，期间不要购买（图 12） |
 | 10 月 12 日 | Plus 升 Pro 200 | Plus 直接订上，升级时被拦 | 要等 72 小时（知乎评论） |
 | 10 月 11 日 | Plus 续费 | 几个月来一直用礼品卡续费，这次续费被拦，会员过期 | 同帖另一位用户说，客服答复 72 小时后能付，前提是期间不反复购买（[帖子](https://linux.do/t/topic/3008216)） |
 | 9 月 30 日 | 未写明 | 找在线客服 | 客服说现在必须有一个付款方式（知乎评论） |
@@ -421,7 +423,7 @@ If the ChatGPT iOS app shows **"Purchase Not Completed. Submit a request to Appl
 4. Wait the 48 to 72 hours the advisor gives you and make no purchases in that time.
 5. Try once more. ChatGPT Pro is reviewed more often than Plus and sometimes takes several rounds. A few users report disabled accounts.
 
-The same review can stop an auto-renewal, so a subscription can lapse even though the balance is enough. If Live Chat is not offered, try again later or call Apple Support. Some advisors ask for a Support PIN, generated at account.apple.com.
+The same review can stop an auto-renewal, so a subscription can lapse even though the balance is enough. If Live Chat is not offered, try again later or call Apple Support. In the chat the advisor asks for a Support PIN (generate it at the bottom of account.apple.com), then handles the request and tells you how long to wait.
 
 ## 资料来源
 
@@ -433,11 +435,11 @@ The same review can stop an auto-renewal, so a subscription can lapse even thoug
 
 **用户案例（知乎）：** 一篇同类教程的评论区（读到 10 月 13 日的评论）
 
-**作者本人：** 图 3 至图 9 的操作截图，图 10、图 11 的客服对话，图 12 的账户页面截图。
+**作者本人：** 图 3 至图 9 的操作截图，图 10、图 12 的客服对话，图 11 的账户页面截图。
 
 ### 更新记录
 
-- **2026-10-20：** Support PIN 换成作者本人的截图：客服发来的步骤（图 11）和账户页面上「支持 PIN」的位置（图 12，红框标出），邮箱和 PIN 已打码。AONIR 入口更新：Pro 两档改用官方名 Pro 100（5×）¥730 / 月、Pro 200（10×）¥1400 / 月，都能微信自助充值。
+- **2026-10-20：** 在线客服的步骤按实际顺序排：第 7 步填表提交，第 8 步给 Support PIN，第 9 步客服处理并告诉你等多久。Support PIN 换成作者本人的截图：客服发来的步骤（图 10）和账户页面上「支持 PIN」的位置（图 11，红框标出），邮箱和 PIN 已打码；客服让等 48 小时的对话改为图 12。AONIR 入口更新：Pro 两档改用官方名 Pro 100（5×）¥730 / 月、Pro 200（10×）¥1400 / 月，都能微信自助充值。
 - **2026-10-18：** 补 5 个 9 月 11 日到 10 月 12 日的案例（含续费被拦、升 Pro 200 被拦、客服要求付款方式）；新增续费被拦、找不到 Live Chat、客服要求绑卡三个问题；补 Support PIN 的生成方法和 Apple 官方截图（图 11）、Apple 关于余额和信用卡的官方说明、OpenAI 关于 iPhone 上升级 Pro 的说明；账户被关闭的风险补了更多案例。
 - **2026-10-05：** 首版：三种提示原文、找到 Apple 在线客服的 7 步截图、表单模板、8 个案例。
 
