@@ -313,7 +313,7 @@ status of the review? Thank you!
 | --- | --- | --- |
 | 不急，余额已经在 Apple 账户里 | 按[处理步骤](#处理步骤)等 | 不用另外花钱 |
 | 有 OpenAI 支持的海外银行卡 | 在 chatgpt.com 网页端直接订阅 | 不经过 Apple |
-| Plus 用户，现在就要用 Pro | **[AONIR Pro 100（5×）¥730 / 月](https://aonir.com/chatgpt-pro/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro)** · **[Pro 200（10×）¥1400 / 月](https://aonir.com/chatgpt-pro-10x/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro_10x)** | 微信支付，自助下单，充值到你本人的账号，不用等 |
+| Plus 用户，现在就要用 Pro | **[AONIR Pro 100（5×）¥730 / 月](https://aonir.com/chatgpt-pro/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro)**<br>**[AONIR Pro 200（10×）¥1400 / 月](https://aonir.com/chatgpt-pro-10x/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro_10x)** | 微信支付，自助下单，充值到你本人的账号，不用等 |
 | 只需要 Plus | **[AONIR Plus ¥168 / 月](https://aonir.com/chatgpt-plus/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_plus)** | 同上 |
 | 还没想好 | [没有海外信用卡的 5 种开通方法](https://aonir.com/guides/chatgpt-plus-without-foreign-card/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_compare) | 按设备、付款条件和后续维护比较 |
 
