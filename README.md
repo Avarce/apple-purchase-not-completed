@@ -1,9 +1,9 @@
 # 「购买未完成，提交申请至 Apple 支持以供审核」怎么办？礼品卡订阅 ChatGPT Plus / Pro 被拦的处理办法（2026）
 
-![Updated](https://img.shields.io/badge/updated-2026--10--18-blue)
+![Updated](https://img.shields.io/badge/updated-2026--10--22-blue)
 ![Applies](https://img.shields.io/badge/applies%20to-ChatGPT%20Plus%20%2F%20Pro-success)
 
-> **最后更新：2026 年 10 月 20 日（北京时间）** · 在线客服的步骤按实际顺序排好：填表提交，给 Support PIN，客服处理完告诉你等多久；Support PIN 换成作者本人的截图，红框标出「支持 PIN」在页面哪里。报错原文和 Apple 支持页的入口 10 月 5 日核对，案例补到 10 月 12 日。案例来自作者本人和公开帖子，都标了日期和出处。
+> **最后更新：2026 年 10 月 22 日（北京时间）** · 补了一条看着像、其实不是审核的提示：「必须提供付款信息才能继续购买」，见[不是本文讲的情况](#不是本文讲的情况)。10 月 20 日在线客服的步骤按实际顺序排好：填表提交，给 Support PIN，客服处理完告诉你等多久；Support PIN 换成作者本人的截图，红框标出「支持 PIN」在页面哪里。报错原文和 Apple 支持页的入口 10 月 5 日核对，案例补到 10 月 12 日。案例来自作者本人和公开帖子，都标了日期和出处。
 
 用美区礼品卡余额在 iPhone 上订阅 ChatGPT Plus 或 Pro，付款时弹出「购买未完成，提交申请至 Apple 支持以供审核」，或者英文的 Purchase Not Completed、Your Purchase Could Not Be Completed。这篇讲它是什么、该怎么处理、要等多久。
 
@@ -81,6 +81,8 @@ For assistance, contact iTunes Support at www.apple.com/support/itunes/ww/.
 订阅按钮是灰的，提示 `In-app purchases are currently unavailable`。那是 App 内购还没开通，和购买审核无关。
 
 「请联系 iTunes 支持人员以完成此交易」（Contact iTunes Support to complete this transaction）看着像，但搜索结果里多是早年 Apple ID 验证不通过时的求助帖，目前没有证据说明是同一件事，本文的办法不一定适用。
+
+「必须提供付款信息才能继续购买。请登录你的 Apple 账户，然后点『账单信息』，以提供付款信息」，点「继续」跳到添加付款方式，也不是审核。多半是余额不够付含税的总额：Apple 按账单地址加收销售税，账单州不是 Oregon 这类免税州时，$19.99 加上税就超过 $20 余额。不用绑卡，处理办法见 [ChatGPT Plus 国内充值指南：账单地址改 Oregon](https://github.com/Avarce/chatgpt-plus-china-guide#apple-payment-info-required)。余额确实够、账单地址也是 Oregon 还弹，看[常见问题](#常见问题)里客服要求付款方式那一条。
 
 ## 为什么会被拦
 
@@ -332,7 +334,7 @@ status of the review? Thank you!
 下面几条来自用户经验，不保证有效：
 
 - 新注册的账户，或者刚改完地区和账单地址的账户，别当天充值当天就订阅，先放几天。
-- 礼品卡从正规渠道买。
+- 礼品卡从正规渠道买。支付宝里 Pockyt 的买法、截图和现在的在售面额，见 [ChatGPT Plus 国内充值指南](https://github.com/Avarce/chatgpt-plus-china-guide#支付宝买美区礼品卡实测流程附截图)。
 - 被拦过一次就别连着点，多试只会让情况更糟。
 - 准备升级 Pro 时，先确认这个账户近期能正常完成小额购买，再充大额余额。
 - 靠礼品卡续费的，提前几天把下个月的钱充进去，别等到扣费当天才充。
@@ -439,6 +441,7 @@ The same review can stop an auto-renewal, so a subscription can lapse even thoug
 
 ### 更新记录
 
+- **2026-10-22：** 「不是本文讲的情况」补一条：提示「必须提供付款信息才能继续购买」是余额不够付含税总额，不是审核，链到 Plus 指南里的处理办法；「下次怎么少遇到」的礼品卡渠道一条链到 Plus 指南的 Pockyt 实测流程。
 - **2026-10-20：** 在线客服的步骤按实际顺序排：第 7 步填表提交，第 8 步给 Support PIN，第 9 步客服处理并告诉你等多久。Support PIN 换成作者本人的截图：客服发来的步骤（图 10）和账户页面上「支持 PIN」的位置（图 11，红框标出），邮箱和 PIN 已打码；客服让等 48 小时的对话改为图 12。AONIR 入口更新：Pro 两档改用官方名 Pro 100（5×）¥730 / 月、Pro 200（10×）¥1400 / 月，都能微信自助充值。
 - **2026-10-18：** 补 5 个 9 月 11 日到 10 月 12 日的案例（含续费被拦、升 Pro 200 被拦、客服要求付款方式）；新增续费被拦、找不到 Live Chat、客服要求绑卡三个问题；补 Support PIN 的生成方法和 Apple 官方截图（图 11）、Apple 关于余额和信用卡的官方说明、OpenAI 关于 iPhone 上升级 Pro 的说明；账户被关闭的风险补了更多案例。
 - **2026-10-05：** 首版：三种提示原文、找到 Apple 在线客服的 7 步截图、表单模板、8 个案例。
