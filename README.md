@@ -1,9 +1,9 @@
 # 「购买未完成，提交申请至 Apple 支持以供审核」怎么办？礼品卡订阅 ChatGPT Plus / Pro 被拦的处理办法（2026）
 
-![Updated](https://img.shields.io/badge/updated-2026--10--24-blue)
+![Updated](https://img.shields.io/badge/updated-2026--10--30-blue)
 ![Applies](https://img.shields.io/badge/applies%20to-ChatGPT%20Plus%20%2F%20Pro-success)
 
-> **最后更新：2026 年 10 月 24 日（北京时间）** · 案例补到 10 月 21 日，现在是 17 个：有人收到审核通过的邮件后还是付不了，有人同一账户其他金额都能买、只有 Pro 200 不行。常见问题新增三条：这算不算「苹果风控」、风控多久解除；「你的购买无法完成，请联系 iTunes 支持」和「请联系 iTunes 支持人员以完成此交易」是不是一回事；买礼品卡被拒绝是不是这个审核。报错原文和 Apple 支持页的入口 10 月 5 日核对，在线客服的步骤 10 月 20 日按实际顺序排过。案例来自作者本人、读者 Issue 和公开帖子，都标了日期和出处。
+> **最后更新：2026 年 10 月 30 日（北京时间）** · OpenAI 10 月 29 日把 Pro 的 Work / Codex 额度翻倍，「升级 Pro 时被拦」和 AONIR 入口里的 Pro 说明随之更新。10 月 24 日：案例补到 10 月 21 日，现在是 17 个：有人收到审核通过的邮件后还是付不了，有人同一账户其他金额都能买、只有 Pro 200 不行。常见问题新增三条：这算不算「苹果风控」、风控多久解除；「你的购买无法完成，请联系 iTunes 支持」和「请联系 iTunes 支持人员以完成此交易」是不是一回事；买礼品卡被拒绝是不是这个审核。报错原文和 Apple 支持页的入口 10 月 5 日核对，在线客服的步骤 10 月 20 日按实际顺序排过。案例来自作者本人、读者 Issue 和公开帖子，都标了日期和出处。
 
 用美区礼品卡余额在 iPhone 上订阅 ChatGPT Plus 或 Pro，付款时弹出「购买未完成，提交申请至 Apple 支持以供审核」，或者英文的 Purchase Not Completed、Your Purchase Could Not Be Completed。这篇讲它是什么、该怎么处理、要等多久。
 
@@ -301,7 +301,7 @@ status of the review? Thank you!
 
 ## 升级 Pro 时被拦
 
-已经是 Plus、想升 Pro 的人最容易遇到这条提示。在 iPhone 上本来也只能这么走：OpenAI 说明从 Free 直接升 Pro 要去网页端（[OpenAI 帮助中心](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription)），所以用礼品卡余额的人都是先订 Plus 再升级。Pro 5× 就是 OpenAI 现在说的 Pro 100（$100 / 月）；案例里的 Pro 20× 是 9 月 29 日以前 Pro 200 的叫法。
+已经是 Plus、想升 Pro 的人最容易遇到这条提示。在 iPhone 上本来也只能这么走：OpenAI 说明从 Free 直接升 Pro 要去网页端（[OpenAI 帮助中心](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription)），所以用礼品卡余额的人都是先订 Plus 再升级。案例里的 Pro 5× 就是现在的 Pro 100（$100 / 月），Pro 20× 是 Pro 200（$200 / 月）以前的叫法。美国时间 10 月 29 日起，OpenAI 把 Pro 的 Work / Codex 额度翻倍，Pro 100、Pro 200、Pro 500 约为 Plus 的 10 倍、20 倍、50 倍（倍数是 Codex 负责人 Tibo 的说法）；Chat 里 GPT-6 Pro 的每周额度，Pro 100 和 Pro 500 没变，Pro 200 统一按原来较高的那档（[OpenAI 帮助中心](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)）。
 
 案例表里有两位是 Plus 订得上、Pro 订不上，分别等了三轮和四轮；10 月 12 日还有人升 Pro 200 时被拦。论坛里还有人反映，订 Plus 时没事，升级 Pro 时才被要求审核（[出处](https://linux.do/t/topic/2924589)）。
 
@@ -323,7 +323,7 @@ status of the review? Thank you!
 | --- | --- | --- |
 | 不急，余额已经在 Apple 账户里 | 按[处理步骤](#处理步骤)等 | 不用另外花钱 |
 | 有 OpenAI 支持的海外银行卡 | 在 chatgpt.com 网页端直接订阅 | 不经过 Apple |
-| Plus 用户，现在就要用 Pro | **[AONIR&nbsp;Pro&nbsp;100&#8288;（5×）&#8288;¥730&nbsp;/&nbsp;月](https://aonir.com/chatgpt-pro/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro)**<br>**[AONIR&nbsp;Pro&nbsp;200&#8288;（10×）&#8288;¥1400&nbsp;/&nbsp;月](https://aonir.com/chatgpt-pro-10x/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro_10x)** | 微信支付，自助下单，充值到你本人的账号，不用等 |
+| Plus 用户，现在就要用 Pro | **[AONIR&nbsp;Pro&nbsp;100&nbsp;¥730&nbsp;/&nbsp;月](https://aonir.com/chatgpt-pro/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro)**<br>**[AONIR&nbsp;Pro&nbsp;200&nbsp;¥1400&nbsp;/&nbsp;月](https://aonir.com/chatgpt-pro-200/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_pro_10x)** | 微信支付，自助下单，充值到你本人的账号，不用等；Work / Codex 用量约为 Plus 的 10 倍、20 倍 |
 | 只需要 Plus | **[AONIR Plus ¥168 / 月](https://aonir.com/chatgpt-plus/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_plus)** | 同上 |
 | 还没想好 | [没有海外信用卡的 5 种开通方法](https://aonir.com/guides/chatgpt-plus-without-foreign-card/?utm_source=github&utm_medium=referral&utm_campaign=apple_purchase_review&utm_content=options_compare) | 按设备、付款条件和后续维护比较 |
 
@@ -464,7 +464,7 @@ The same review can stop an auto-renewal, so a subscription can lapse even thoug
 
 **Apple：** [Billing and Subscriptions](https://support.apple.com/billing) · [Contact Apple Support](https://support.apple.com/en-us/106932) · [What you can buy with your Apple Gift Card or Apple Account balance](https://support.apple.com/en-us/HT211187) · [If you're asked to confirm your Apple Account when you contact Apple（Support PIN）](https://support.apple.com/en-us/102425) · Apple 社区：[Purchase Not Completed. Contact Apple Support for assistance.](https://discussions.apple.com/thread/256326371) · [Failed purchase of ChatGPT Plus with Apple Gift Card](https://discussions.apple.com/thread/256335168)
 
-**OpenAI：** [ChatGPT iOS app: Upgrading to a paid subscription](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription)
+**OpenAI：** [ChatGPT iOS app: Upgrading to a paid subscription](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) · [About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)（10 月 29 日更新） · Codex 负责人 Tibo：[Pro 三档额度翻倍](https://x.com/thsottiaux/status/2115850175868727621)、[Pro 500 约为 Plus 的 50 倍](https://x.com/thsottiaux/status/2115851811576053881)（美国时间 10 月 29 日）
 
 **用户案例（LINUX DO）：** [Apple 礼品卡充值 GPT Plus 失败的一个解决方法](https://linux.do/t/topic/2848813)（9 月 2 日） · [Apple订阅gpt被风控，礼品卡不是最佳订阅渠道了](https://linux.do/t/topic/2851005)（9 月 3 日） · [Apple ID 订阅 GPT，提示提交申请至 Apple 支持以供审核](https://linux.do/t/topic/2924589)（9 月 19 日） · [关于IOS订阅GPT需要审核的问题](https://linux.do/t/topic/3008216)（10 月 11 日） · [apple store 订阅 gpt 被风控，72 小时申诉通过后仍无法付费](https://linux.do/t/topic/3010934)（10 月 12 日） · [关于苹果订阅 gpt 触发 72 小时风控的问题](https://linux.do/t/topic/3032121)（10 月 16 日）
 
@@ -476,6 +476,7 @@ The same review can stop an auto-renewal, so a subscription can lapse even thoug
 
 ### 更新记录
 
+- **2026-10-30：** OpenAI 10 月 29 日把 Pro 的 Work / Codex 额度翻倍：「升级 Pro 时被拦」补上三档现在约为 Plus 的 10、20、50 倍（Chat 里 GPT-6 Pro 的每周额度 Pro 100、Pro 500 不变），AONIR 入口的 Pro 两档去掉旧倍数、写上新用量，Pro 200 链接换成新地址 `/chatgpt-pro-200/`。审核流程和案例这次没有复核。
 - **2026-10-24：** 案例从 13 个补到 17 个：10 月 21 日读者 Issue（同一账户其他订阅和 Plus 都能买，只有 Pro 200 不行）、10 月 16 日两例（升 Pro 被拦后「更改订阅」成功；反复付款拖长了等待）、10 月 12 日一例（收到审核通过邮件后仍付不了）。常见问题新增三条：这算不算苹果风控、多久解除；两条 iTunes 支持提示的区别；买礼品卡被拒绝不是这个审核。正文几处 Apple 补上「苹果」的叫法。
 - **2026-10-22：** 「不是本文讲的情况」补一条：提示「必须提供付款信息才能继续购买」是余额不够付含税总额，不是审核，链到 Plus 指南里的处理办法；「下次怎么少遇到」的礼品卡渠道一条链到 Plus 指南的 Pockyt 实测流程。
 - **2026-10-20：** 在线客服的步骤按实际顺序排：第 7 步填表提交，第 8 步给 Support PIN，第 9 步客服处理并告诉你等多久。Support PIN 换成作者本人的截图：客服发来的步骤（图 10）和账户页面上「支持 PIN」的位置（图 11，红框标出），邮箱和 PIN 已打码；客服让等 48 小时的对话改为图 12。AONIR 入口更新：Pro 两档改用官方名 Pro 100（5×）¥730 / 月、Pro 200（10×）¥1400 / 月，都能微信自助充值。
