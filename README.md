@@ -3,7 +3,7 @@
 ![Updated](https://img.shields.io/badge/updated-2026--11--01-blue)
 ![Applies](https://img.shields.io/badge/applies%20to-ChatGPT%20Plus%20%2F%20Pro-success)
 
-> **最后更新：2026 年 11 月 1 日（北京时间）** · 案例补到 10 月 29 日，现在是 24 个：有人等了 6 轮还没升上 Pro，有人第 5 天、有人约 144 小时才过，有人请客服升级给高级专员后解除，也有人提交申请第二天账户就被停用。「还是不行」一步加了升级给高级专员的做法和英文句子，以及请大陆客服转接台湾客服的用户经验。10 月 30 日：OpenAI 把 Pro 的 Work / Codex 额度翻倍，「升级 Pro 时被拦」和 AONIR 入口里的 Pro 说明随之更新。报错原文和 Apple 支持页的入口 10 月 5 日核对，在线客服的步骤 10 月 20 日按实际顺序排过。案例来自作者本人、读者 Issue 和公开帖子，都标了日期和出处。
+> **最后更新：2026 年 11 月 1 日（北京时间）** · 案例补到 10 月 29 日，现在是 24 个：有人等了 6 轮还没升上 Pro，有人第 5 天、有人约 144 小时才过，有人请客服升级给高级专员后解除，也有人提交申请第二天账户就被停用。「还是不行」一步加了升级给高级专员的做法和英文句子。美区账户的问题由美国的 Apple 支持处理，联系大陆客服可能会被转过去，打电话的说明随之补充。10 月 30 日：OpenAI 把 Pro 的 Work / Codex 额度翻倍，「升级 Pro 时被拦」和 AONIR 入口里的 Pro 说明随之更新。报错原文和 Apple 支持页的入口 10 月 5 日核对，在线客服的步骤 10 月 20 日按实际顺序排过。案例来自作者本人、读者 Issue 和公开帖子，都标了日期和出处。
 
 用美区礼品卡余额在 iPhone 上订阅 ChatGPT Plus 或 Pro，付款时弹出「购买未完成，提交申请至 Apple 支持以供审核」，或者英文的 Purchase Not Completed、Your Purchase Could Not Be Completed。这篇讲它是什么、该怎么处理、要等多久。
 
@@ -158,7 +158,7 @@ For assistance, contact iTunes Support at www.apple.com/support/itunes/ww/.
 </p>
 <p align="center"><sub>图 8：选 Live Chat。</sub></p>
 
-这里没有 Live Chat，只有 Call us，或者显示 `Live chat is unavailable`，是不少人卡住的地方。知乎一篇同类教程的评论区里，作者的解释是那个地区的在线客服这会儿不上班，换个时间再进。不想等的话，直接打电话，号码在这一步最后。
+这里没有 Live Chat，只有 Call us，或者显示 `Live chat is unavailable`，是不少人卡住的地方。知乎一篇同类教程的评论区里，作者的解释是那个地区的在线客服这会儿不上班，换个时间再进。不想等的话，可以打电话，说明在这一步最后。
 
 **7. 填表，然后提交。**
 
@@ -210,7 +210,7 @@ on my account and help me complete this purchase. Thank you!
 </p>
 <p align="center"><sub>图 12：作者和 Apple 在线客服的对话。客服说已经调整了账户，让 48 小时后再试，这期间不要做任何购买。</sub></p>
 
-不想打字聊天的话也可以打电话。Apple 中国大陆的官方电话是 400-666-8800，其他地区的号码见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
+不想打字聊天的话，也可以在图 8 那一步选 Call us，找的同样是美国的 Apple 支持。美区账户的问题由美国的 Apple 支持处理：作者的一位朋友在线联系过大陆的 Apple 客服，对方说美区账户这边处理不了，把问题转给了美国的客服；论坛里也有用户说内地客服解决不了，要转海外客服（[出处](https://linux.do/t/topic/3023341/4)）。想说中文，可以打 Apple 中国大陆的 400-666-8800，说明是美区账户，请对方帮你转接或告诉你该找哪里。各地区的电话见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
 
 ### 第 3 步：等 48–72 小时
 
@@ -228,7 +228,6 @@ on my account and help me complete this purchase. Thank you!
 - 继续等。有人第二、第三轮才过，也有人等了六轮还没过。
 - 换一台自己的设备，用同一个账户试。有一位用户 iPhone 上不行，换到 iPad 直接成功（[出处](https://linux.do/t/topic/2924589)）；10 月 25 日又有一位续费被拦的用户，iPhone 上不行，换 iPad 在 App 里订阅直接成功（[出处](https://linux.do/t/topic/2924589/68)）。知乎一篇同类教程的作者也说，自己等满时间还是失败，换了一台设备就成功了；但同一个评论区里也有人换了设备照样失败。不保证有效。
 - 卡了好几轮的，可以请在线客服把问题升级给高级专员（senior advisor）。有用户卡了四五轮后这样要求，客服把审核转给高级专员、约了回电时间，第二天早上一位美国的高级专员打来电话（全程英文，+86 手机号可以），还是让等 72 小时，但这一轮之后解除了（[出处](https://linux.do/t/topic/2924589/66)）。只有这一个例子，句子见[聊天时用得上的话](#聊天时用得上的话)。
-- 打电话找的是大陆客服（400-666-8800），对方处理不了美区账户的问题时，可以请他们转接台湾或海外的客服。论坛里有两位用户这样建议，其中一位说转到台湾客服后处理得很快（[出处](https://linux.do/t/topic/3043257/2)、[出处](https://linux.do/t/topic/3023341/4)）。这是用户经验，没有更多结果可以核对。
 - [换一条不经过这个 Apple 账户的路](#不想等怎么办)。
 
 ## 聊天时用得上的话
@@ -443,14 +442,14 @@ Apple 没有公开续费被拦以后会不会自动重扣。等满时间先看�
 <details>
 <summary><strong>Apple 客服能用中文吗？</strong></summary>
 
-在线聊天走的是美区支持页，只有英语和西班牙语，开着翻译聊就够，上面的模板可以直接发。想说中文可以打 Apple 中国大陆的官方电话 400-666-8800。大陆客服处理不了美区账户的问题时，可以请他们转接台湾客服，台湾客服也说中文（用户经验，见[第 5 步](#第-5-步还是不行)）。
+在线聊天走的是美区支持页，只有英语和西班牙语，开着翻译聊就够，上面的模板可以直接发。想说中文可以打 Apple 中国大陆的官方电话 400-666-8800；不过美区账户的问题最后由美国的客服处理，作者的一位朋友在线联系大陆客服时，就被转给了美国的客服，见[第 2 步](#第-2-步提交一次申请)最后。
 
 </details>
 
 <details>
 <summary><strong>找不到 Live Chat，只有 Call us 怎么办？</strong></summary>
 
-多半是那个时段在线客服不上班，换个时间再按[处理步骤](#处理步骤)走一遍，或者直接打 400-666-8800。注意第 5 步的 Get more help 在文章列表最下面，按钮很小，最容易漏。
+多半是那个时段在线客服不上班，换个时间再按[处理步骤](#处理步骤)走一遍，或者选 Call us 打电话；也可以打 Apple 中国大陆的 400-666-8800 问怎么处理，美区账户对方可能会帮你转给美国的客服。注意第 5 步的 Get more help 在文章列表最下面，按钮很小，最容易漏。
 
 </details>
 
@@ -478,7 +477,7 @@ If the ChatGPT iOS app shows **"Purchase Not Completed. Submit a request to Appl
 4. Wait the 48 to 72 hours the advisor gives you and make no purchases in that time.
 5. Try once more. ChatGPT Pro is reviewed more often than Plus and sometimes takes several rounds. A few users report disabled accounts.
 
-The same review can stop an auto-renewal, so a subscription can lapse even though the balance is enough. If Live Chat is not offered, try again later or call Apple Support. In the chat the advisor asks for a Support PIN (generate it at the bottom of account.apple.com), then handles the request and tells you how long to wait. If several rounds fail, ask the advisor to escalate your case to a senior advisor; one user's block cleared in the round after a senior advisor called back.
+The same review can stop an auto-renewal, so a subscription can lapse even though the balance is enough. If Live Chat is not offered, try again later, choose Call us, or call Apple's mainland China line (400-666-8800) for directions. US accounts are handled by US Apple Support, so mainland advisors may transfer you. In the chat the advisor asks for a Support PIN (generate it at the bottom of account.apple.com), then handles the request and tells you how long to wait. If several rounds fail, ask the advisor to escalate your case to a senior advisor; one user's block cleared in the round after a senior advisor called back.
 
 ## 资料来源
 
@@ -496,7 +495,7 @@ The same review can stop an auto-renewal, so a subscription can lapse even thoug
 
 ### 更新记录
 
-- **2026-11-01：** 案例从 17 个补到 24 个，都是 10 月 20 日到 29 日的：升 Pro 200 被拦第 5 天成功；两次收到审核通过的回信仍付不了，网页端改订阅也不行；续费被拦，换 iPad 成功；卡了四五轮后请客服升级给高级专员，这一轮之后解除；提交申请第二天账户被停用；读者等了 6 轮还没升上 Pro；同一位读者三个账户，72 小时到约 144 小时不等。「还是不行」一步加升级给高级专员的做法，「聊天时用得上的话」加对应的英文句子；「还是不行」和常见问题「Apple 客服能用中文吗」加一条用户经验：大陆客服处理不了时请对方转接台湾客服；案例总结、「升级 Pro 时被拦」、两个风险和两条常见问题随之更新。审核流程这次没有重走。
+- **2026-11-01：** 案例从 17 个补到 24 个，都是 10 月 20 日到 29 日的：升 Pro 200 被拦第 5 天成功；两次收到审核通过的回信仍付不了，网页端改订阅也不行；续费被拦，换 iPad 成功；卡了四五轮后请客服升级给高级专员，这一轮之后解除；提交申请第二天账户被停用；读者等了 6 轮还没升上 Pro；同一位读者三个账户，72 小时到约 144 小时不等。「还是不行」一步加升级给高级专员的做法，「聊天时用得上的话」加对应的英文句子；补充一条：美区账户的问题由美国的 Apple 支持处理，作者的一位朋友在线联系大陆客服时，对方说美区账户处理不了，转给了美国的客服；打电话的说明随之补充（第 2 步、第 6 步和两条常见问题）；案例总结、「升级 Pro 时被拦」、两个风险和两条常见问题随之更新。审核流程这次没有重走。
 - **2026-10-30：** OpenAI 10 月 29 日把 Pro 的 Work / Codex 额度翻倍：「升级 Pro 时被拦」补上三档现在约为 Plus 的 10、20、50 倍（Chat 里 GPT-6 Pro 的每周额度 Pro 100、Pro 500 不变），AONIR 入口的 Pro 两档去掉旧倍数、写上新用量，Pro 200 链接换成新地址 `/chatgpt-pro-200/`。审核流程和案例这次没有复核。
 - **2026-10-24：** 案例从 13 个补到 17 个：10 月 21 日读者 Issue（同一账户其他订阅和 Plus 都能买，只有 Pro 200 不行）、10 月 16 日两例（升 Pro 被拦后「更改订阅」成功；反复付款拖长了等待）、10 月 12 日一例（收到审核通过邮件后仍付不了）。常见问题新增三条：这算不算苹果风控、多久解除；两条 iTunes 支持提示的区别；买礼品卡被拒绝不是这个审核。正文几处 Apple 补上「苹果」的叫法。
 - **2026-10-22：** 「不是本文讲的情况」补一条：提示「必须提供付款信息才能继续购买」是余额不够付含税总额，不是审核，链到 Plus 指南里的处理办法；「下次怎么少遇到」的礼品卡渠道一条链到 Plus 指南的 Pockyt 实测流程。
