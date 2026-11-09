@@ -1,9 +1,9 @@
 # 「购买未完成，提交申请至 Apple 支持以供审核」怎么办？礼品卡订阅 ChatGPT Plus / Pro 被拦的处理办法（2026）
 
-![Updated](https://img.shields.io/badge/updated-2026--11--01-blue)
+![Updated](https://img.shields.io/badge/updated-2026--11--09-blue)
 ![Applies](https://img.shields.io/badge/applies%20to-ChatGPT%20Plus%20%2F%20Pro-success)
 
-> **最后更新：2026 年 11 月 1 日（北京时间）** · 案例补到 10 月 29 日，现在是 24 个：有人等了 6 轮还没升上 Pro，有人第 5 天、有人约 144 小时才过，有人请客服升级给高级专员后解除，也有人提交申请第二天账户就被停用。「还是不行」一步加了升级给高级专员的做法和英文句子。美区账户的问题由美国的 Apple 支持处理，联系大陆客服可能会被转过去，打电话的说明随之补充。10 月 30 日：OpenAI 把 Pro 的 Work / Codex 额度翻倍，「升级 Pro 时被拦」和 AONIR 入口里的 Pro 说明随之更新。报错原文和 Apple 支持页的入口 10 月 5 日核对，在线客服的步骤 10 月 20 日按实际顺序排过。案例来自作者本人、读者 Issue 和公开帖子，都标了日期和出处。
+> **最后更新：2026 年 11 月 9 日（北京时间）** · Apple 支持页 10 月下旬新加了一节（英文版 10 月 22 日、中文版 10 月 24 日），写明：看到「购买未完成」，点「继续」提交审核；联系 Apple 支持也不能加快审核。第 2 步改成推荐点「以后再说」、找在线客服处理：我们遇到过点「继续」提交后，收到审核已通过的回复，结果还是买不了。点「继续」也可以，第 2 步加了点「继续」后看到的「申请已提交」页面（图 3）。账户被停用的风险补了我们的判断：更像是买来的批量注册账户、来源不明的礼品卡出的问题。案例补到 11 月 8 日，现在是 27 个：有人找了高级专员，又等一天还是没过；有人三个账户都是联系美区客服后，三天后就能付了。11 月 1 日那版补了升级给高级专员的做法、美区账户找美国的 Apple 支持。报错原文 10 月 5 日核对，在线客服的步骤 10 月 20 日按实际顺序排过。案例来自作者本人、读者 Issue 和公开帖子，都标了日期和出处。
 
 用美区礼品卡余额在 iPhone 上订阅 ChatGPT Plus 或 Pro，付款时弹出「购买未完成，提交申请至 Apple 支持以供审核」，或者英文的 Purchase Not Completed、Your Purchase Could Not Be Completed。这篇讲它是什么、该怎么处理、要等多久。
 
@@ -11,18 +11,18 @@
 
 - **这是 Apple 的购买审核，论坛里也叫「苹果风控」。** 余额没有问题，ChatGPT 也没有问题。作者遇到时，Apple 客服的解释是：Apple 用技术手段防止未经授权的购买，所以弹了这条提示。自动续费时也有人遇到。
 - **马上停手。** 别再点订阅，别再兑换新的礼品卡，别换账号重试。多位用户反映，等待期间每试一次，时间会重新算。
-- **提交一次申请，然后等 48–72 小时。** 点弹窗里的「继续」，或者自己找 Apple 在线客服，二选一，做一次就够。多数案例在 72 小时前后恢复。
-- **有人等完也没恢复。** 有人等了六轮还不行，也有人联系客服后 Apple 账户被关闭。金额越大越常见：不少人订 Plus 没事，升级 Pro 时被拦。
+- **推荐点「以后再说」，然后[找 Apple 在线客服](#第-2-步提交一次申请)处理，再等 48–72 小时。** 我们遇到过点「继续」提交后，收到审核已通过的回复，结果还是买不了，找客服更稳当。点「继续」是 Apple 支持页写的提交办法，也可以用。客服和「继续」都不能让审核马上解除，做一次就够，多数案例在 72 小时前后恢复。
+- **有人等完也没恢复。** 有人等了六轮还不行，也有人联系客服后 Apple 账户被关闭（我们看更像是账户本身的问题，见[两个风险](#两个风险)）。金额越大越常见：不少人订 Plus 没事，升级 Pro 时被拦。
 - 不想等，或者等了还不行，可以[换一条路](#不想等怎么办)。
 
 ~~~mermaid
 flowchart LR
     A[弹出购买未完成] --> B[停手：不再点、不再充]
-    B --> C[提交一次申请<br/>点继续或找在线客服]
+    B --> C[点以后再说，找在线客服<br/>或点继续提交]
     C --> D[等 48–72 小时<br/>期间不做任何购买]
     D --> E{再试一次}
     E -->|成功| F[完成]
-    E -->|还是不行| G[再找客服、继续等<br/>或换一条路]
+    E -->|还是不行| G[找客服、再等一轮<br/>或换一条路]
 ~~~
 
 ## 目录
@@ -32,7 +32,7 @@ flowchart LR
 - [处理步骤](#处理步骤)
 - [聊天时用得上的话](#聊天时用得上的话)
 - [等待期间能做什么](#等待期间能做什么)
-- [要等多久：24 个案例](#要等多久24-个案例)
+- [要等多久：27 个案例](#要等多久27-个案例)
 - [升级 Pro 时被拦](#升级-pro-时被拦)
 - [两个风险](#两个风险)
 - [不想等怎么办](#不想等怎么办)
@@ -86,7 +86,7 @@ For assistance, contact iTunes Support at www.apple.com/support/itunes/ww/.
 
 ## 为什么会被拦
 
-苹果（Apple）没有公开规则。能确定的只有一点：这是防盗刷的自动审核。作者当时问在线客服，对方的原话是：
+苹果（Apple）的支持页对原因只写了一句：如果 Apple 检测到可疑的购买活动，你可能需要为你的购买项目提交审核请求（[Apple 说明](https://support.apple.com/zh-cn/108095)）。什么样的购买算可疑，没有公开。作者当时问在线客服，对方的原话是：
 
 > Apple uses the technologies to prevent unauthorised purchase or activity on the account and this is the reason you were receiving the error message.
 
@@ -96,23 +96,28 @@ For assistance, contact iTunes Support at www.apple.com/support/itunes/ww/.
 - 账户新，或者刚改过地区和账单地址，当天充值当天就订阅。
 - 连续点了好几次。
 - 一位用户转述电话客服的说法：这是一种随机抽查，绑定的手机号地区和 Apple 账户地区不一致时可能触发（[出处](https://linux.do/t/topic/2848813)）。只有这一个来源。
-- 账户里没有付款方式，只有余额。Apple 官方说明里写着：有些购买即使用余额支付，也可能要求账户里有一张信用卡（[What you can buy with your Apple Gift Card or Apple Account balance](https://support.apple.com/en-us/HT211187)）。Apple 没说这和购买审核有关，但有读者反映，9 月底在线客服直接告诉这位读者现在必须有一个付款方式（知乎一篇同类教程的评论区，9 月 30 日）。国内发的卡一般绑不到美区账户上，遇到这种答复，看[不想等怎么办](#不想等怎么办)。
+- 账户里没有付款方式，只有余额。Apple 官方说明里写着：有些购买即使用余额支付，也可能要求账户里有一张信用卡（[What you can buy with your Apple Gift Card or Apple Account balance](https://support.apple.com/en-us/HT211187)）。国内发的卡一般绑不到美区账户上，绑不了的话，看[不想等怎么办](#不想等怎么办)。
 
 ## 处理步骤
 
 ### 第 1 步：停手
 
-关掉弹窗后先什么都别做。不再点订阅，不再兑换礼品卡，不换 Apple 账户重试。
-
-如果来得及，先把弹窗截个图，记下时间。有的客服会要你证明确实遇到了这条提示。
+弹窗上点哪个，见第 2 步（推荐点「以后再说」）。之后先什么都别做：不再点订阅，不再兑换礼品卡，不换 Apple 账户重试。
 
 ### 第 2 步：提交一次申请
 
-两种方式选一种，做一次就够，反复提交没有用。
+**推荐：点「以后再说」，然后找 Apple 在线客服。** 我们遇到过点「继续」提交以后，收到审核已通过的回复，结果还是买不了。找在线客服，可以让客服直接看你的账户、把这件事处理上，多数时候还会告诉你要等多久。步骤见下面的「找 Apple 在线客服」。
 
-**方式 A：点弹窗里的「继续」。** 它会打开 Apple 的支持流程，按页面要求如实提交。有用户反映点了以后一直转圈打不开（[出处](https://linux.do/t/topic/2848813)），那就用方式 B。你看到的弹窗只有 OK 按钮的话，也用方式 B。
+**也可以点「继续」。** 这是 Apple 支持页 10 月下旬新加的一节写的办法（英文版 10 月 22 日、中文版 10 月 24 日）：看到「购买未完成」时选「继续」，按屏幕提示提交购买审核；**Apple 支持无法加快审核流程**（[Apple 说明](https://support.apple.com/zh-cn/108095)，「如果你看到一条显示"购买未完成"的信息」一节）。提交成功会看到「申请已提交」，页面写着请求最多需要 72 小时处理完毕，联系 Apple 支持不会缩短处理时间，处理完成后会发邮件联系你（图 3）。看到这一页就交上去了，直接去第 3 步等，等满还不行再找客服。「继续」打不开，或者弹窗只有 OK 按钮的，别反复点，直接找客服。英文界面提交后的页面，有用户看到的是 `It might take up to 72 hours for us to review this request.`（这位是土区账户订阅 Gemini，[出处](https://linux.do/t/topic/3042443)）。
 
-**方式 B：自己找 Apple 在线客服。** 很多人卡在这里：苹果（Apple）的支持页不会直接给聊天按钮，要按下面的顺序一层层点进去。截图是 10 月 5 日实际操作的页面，红框是要点的地方。
+<p align="center">
+  <img src="./images/13-request-submitted-zh.webp" width="480" alt="申请已提交。您的请求可能需要最多 72 小时才能处理完毕。联系 Apple 支持并不会缩短处理时间。处理完成后，我们将通过你的 Apple 账户邮箱与您联系。">
+</p>
+<p align="center"><sub>图 3：点「继续」提交以后的页面（示意图，按<a href="https://github.com/Avarce/apple-purchase-not-completed/issues/4">读者 Issue #4</a> 截图的原文绘制，邮箱换成了说明文字）。</sub></p>
+
+不管走哪条，做一次就够，反复提交没有用。
+
+**找 Apple 在线客服。** 客服也没法马上解除。「申请已提交」页面上写着，联系 Apple 支持不会缩短处理时间；有用户问过在线客服，回复也是只能等（[出处](https://linux.do/t/topic/3139703/5)）。客服能做的是帮你把这件事处理上：作者那次客服调整了账户，让等 48 小时（图 13）；也有客服说帮忙转给审核团队（[出处](https://linux.do/t/topic/3032121/6)）。处理完还是要等一段时间，等风控自己解除。所以找客服是为了让客服把这件事处理上、拿到一个明确的等待时间，不是为了催进度。很多人卡在入口：苹果（Apple）的支持页不会直接给聊天按钮，要按下面的顺序一层层点进去。截图是 10 月 5 日实际操作的页面，红框是要点的地方。
 
 美区支持页只有英语和西班牙语，聊天用英语，旁边开个翻译就行。过程中如果要求登录，用出问题的那个 Apple 账户。
 
@@ -121,42 +126,42 @@ For assistance, contact iTunes Support at www.apple.com/support/itunes/ww/.
 <p align="center">
   <img src="./images/03-support-get-started.webp" width="640" alt="support.apple.com/billing 页面底部的 Still need help? 区域，点 Get started">
 </p>
-<p align="center"><sub>图 3：页面底部的 Get started。</sub></p>
+<p align="center"><sub>图 4：页面底部的 Get started。</sub></p>
 
 **2. 在 What's going on? 里点右下角的 More。** 前面七个选项都不对，别点 Update Payment Information。
 
 <p align="center">
   <img src="./images/04-support-more.webp" width="640" alt="Billing & Subscriptions 页面 What's going on? 的八个选项，点右下角的 More">
 </p>
-<p align="center"><sub>图 4：选 More。</sub></p>
+<p align="center"><sub>图 5：选 More。</sub></p>
 
 **3. 在 Choose a topic 里点 Unable to purchase。**
 
 <p align="center">
   <img src="./images/05-support-unable-to-purchase.webp" width="640" alt="Choose a topic 列表，点 Unable to purchase">
 </p>
-<p align="center"><sub>图 5：选 Unable to purchase。</sub></p>
+<p align="center"><sub>图 6：选 Unable to purchase。</sub></p>
 
 **4. 点 Continue。**
 
 <p align="center">
   <img src="./images/06-support-continue.webp" width="640" alt="已选 More 和 Unable to purchase，点 See your support options 下面的 Continue">
 </p>
-<p align="center"><sub>图 6：点 Continue。</sub></p>
+<p align="center"><sub>图 7：点 Continue。</sub></p>
 
 **5. 下一页先给你一堆帮助文章，不用看。拉到最下面，点 Get more help。** 这个按钮很小，最容易漏掉。
 
 <p align="center">
   <img src="./images/07-support-get-more-help.webp" width="640" alt="帮助文章列表下方的 Get more help 按钮">
 </p>
-<p align="center"><sub>图 7：文章列表下面的 Get more help。</sub></p>
+<p align="center"><sub>图 8：文章列表下面的 Get more help。</sub></p>
 
 **6. 弹出 Contact Options，点 Live Chat。**
 
 <p align="center">
   <img src="./images/08-support-live-chat.webp" width="640" alt="Contact Options 弹窗里的 Live Chat：Start a conversation with Apple">
 </p>
-<p align="center"><sub>图 8：选 Live Chat。</sub></p>
+<p align="center"><sub>图 9：选 Live Chat。</sub></p>
 
 这里没有 Live Chat，只有 Call us，或者显示 `Live chat is unavailable`，是不少人卡住的地方。知乎一篇同类教程的评论区里，作者的解释是那个地区的在线客服这会儿不上班，换个时间再进。不想等的话，可以打电话，说明在这一步最后。
 
@@ -165,7 +170,7 @@ For assistance, contact iTunes Support at www.apple.com/support/itunes/ww/.
 <p align="center">
   <img src="./images/09-support-chat-form.webp" width="460" alt="Chat with Apple Support 表单：First Name、Last Name、Email、Item title、Order number、Additional Details">
 </p>
-<p align="center"><sub>图 9：聊天前的表单，姓名和邮箱已打码。红框是要粘贴模板的地方。</sub></p>
+<p align="center"><sub>图 10：聊天前的表单，姓名和邮箱已打码。红框是要粘贴模板的地方。</sub></p>
 
 | 栏目 | 怎么填 |
 | --- | --- |
@@ -187,17 +192,17 @@ on my account and help me complete this purchase. Thank you!
 
 **8. 进入聊天后，客服会要一个 Support PIN，用来确认是你本人。**
 
-客服会发来生成 PIN 的步骤（图 10）。在 [account.apple.com](https://account.apple.com/) 登录出问题的账户，拉到页面最下面，点左下角的 Support PIN（中文界面叫「支持 PIN」，图 11 红框），再点 Generate PIN（生成 PIN），把生成的 4 位数字发给客服。这个 PIN 只能用一次，不能拿来登录你的账户。Apple 不会向你要密码和验证码，有人要就别给（[Apple 说明](https://support.apple.com/en-us/102425)）。
+客服会发来生成 PIN 的步骤（图 11）。在 [account.apple.com](https://account.apple.com/) 登录出问题的账户，拉到页面最下面，点左下角的 Support PIN（中文界面叫「支持 PIN」，图 12 红框），再点 Generate PIN（生成 PIN），把生成的 4 位数字发给客服。这个 PIN 只能用一次，不能拿来登录你的账户。Apple 不会向你要密码和验证码，有人要就别给（[Apple 说明](https://support.apple.com/en-us/102425)）。
 
 <p align="center">
   <img src="./images/11-apple-chat-support-pin.webp" width="420" alt="Apple 在线客服要求提供 Support PIN 的步骤：打开 account.apple.com，拉到页面最下面点 Support PIN，再点 Generate PIN，把 PIN 发给客服。邮箱和 PIN 已打码">
 </p>
-<p align="center"><sub>图 10：客服要 Support PIN 时发来的步骤。作者本人的对话，邮箱和 PIN 已打码。</sub></p>
+<p align="center"><sub>图 11：客服要 Support PIN 时发来的步骤。作者本人的对话，邮箱和 PIN 已打码。</sub></p>
 
 <p align="center">
   <img src="./images/12-account-support-pin.webp" width="720" alt="account.apple.com 的「登录与安全性」页面，左下角红框标出「支持 PIN」，邮箱已打码">
 </p>
-<p align="center"><sub>图 11：登录 account.apple.com，拉到页面最下面，左下角就是「支持 PIN」（英文界面叫 Support PIN），点开后再点「生成 PIN」。作者本人账户的截图，邮箱已打码。</sub></p>
+<p align="center"><sub>图 12：登录 account.apple.com，拉到页面最下面，左下角就是「支持 PIN」（英文界面叫 Support PIN），点开后再点「生成 PIN」。作者本人账户的截图，邮箱已打码。</sub></p>
 
 客服也可能顺带问姓名、Apple 账户邮箱、账单地址，照实回答。有时客服不要 PIN，而是往登录着这个账户的设备发一条「Apple 账户确认信息」，点「确认」就行。没有联系 Apple 却收到这条，点「不确认」。
 
@@ -208,26 +213,26 @@ on my account and help me complete this purchase. Thank you!
 <p align="center">
   <img src="./images/10-apple-chat-wait-48-hours.webp" width="420" alt="Apple 在线客服回复：已对 App Store 账户做了必要调整，请 48 小时后再尝试购买，期间不要进行任何购买">
 </p>
-<p align="center"><sub>图 12：作者和 Apple 在线客服的对话。客服说已经调整了账户，让 48 小时后再试，这期间不要做任何购买。</sub></p>
+<p align="center"><sub>图 13：作者和 Apple 在线客服的对话。客服说已经调整了账户，让 48 小时后再试，这期间不要做任何购买。</sub></p>
 
-不想打字聊天的话，也可以在图 8 那一步选 Call us，找的同样是美国的 Apple 支持。美区账户的问题由美国的 Apple 支持处理：作者的一位朋友在线联系过大陆的 Apple 客服，对方说美区账户这边处理不了，把问题转给了美国的客服；论坛里也有用户说内地客服解决不了，要转海外客服（[出处](https://linux.do/t/topic/3023341/4)）。想说中文，可以打 Apple 中国大陆的 400-666-8800，说明是美区账户，请对方帮你转接或告诉你该找哪里。各地区的电话见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
+不想打字聊天的话，也可以在图 9 那一步选 Call us，找的同样是美国的 Apple 支持。美区账户的问题由美国的 Apple 支持处理：作者的一位朋友在线联系过大陆的 Apple 客服，对方说美区账户这边处理不了，把问题转给了美国的客服；论坛里也有用户说内地客服解决不了，要转海外客服（[出处](https://linux.do/t/topic/3023341/4)）。想说中文，可以打 Apple 中国大陆的 400-666-8800，说明是美区账户，请对方帮你转接或告诉你该找哪里。各地区的电话见 [Contact Apple Support](https://support.apple.com/en-us/106932)。
 
 ### 第 3 步：等 48–72 小时
 
-客服说多久就等多久。作者那次是 48 小时，公开帖子里多数是 72 小时。这段时间不要做任何购买，细节见[等待期间能做什么](#等待期间能做什么)。
+客服说多久就等多久。作者那次是 48 小时；「申请已提交」页面写的是最多 72 小时，公开帖子里也多是 72 小时左右。这段时间不要做任何购买，细节见[等待期间能做什么](#等待期间能做什么)。
 
 ### 第 4 步：再试一次
 
-时间到了，或者收到 Apple 的邮件说审核完成，再回 ChatGPT App 里订阅，只试一次。不是每个人都会收到邮件，没收到就等满时间自己试。
+时间到了，或者收到 Apple 的邮件说审核完成，再回 ChatGPT App 里订阅，只试一次。有用户收到的邮件标题是 `Apple Account Review is Complete`（[出处](https://linux.do/t/topic/3042443)）。不是每个人都会收到邮件，邮件也可能比 72 小时晚一点到：有用户第二天同一时间再试就成功了，通过的邮件略超过 72 小时才收到（[出处](https://linux.do/t/topic/3032121/2)）。没收到就等满时间自己试。
 
 有用户是提交申请 72 小时后收到邮件，又过了 10 小时才订阅成功（[出处](https://linux.do/t/topic/2924589)）。收到邮件后第一次没过，隔半天再试，别连着点。
 
 ### 第 5 步：还是不行
 
-- 再找一次在线客服，说明已经等满了时间。有用户这样做以后，客服让再等 11 小时，之后就好了（[出处](https://linux.do/t/topic/2924589)）。
+- 再找一次在线客服，说明已经等满了时间。有用户这样做以后，客服让再等 11 小时，之后就好了（[出处](https://linux.do/t/topic/2924589)）。作者的一位朋友也是这样：客服让等 72 小时，到点还是失败，又联系了一次，再等了几天就成功了。
 - 继续等。有人第二、第三轮才过，也有人等了六轮还没过。
 - 换一台自己的设备，用同一个账户试。有一位用户 iPhone 上不行，换到 iPad 直接成功（[出处](https://linux.do/t/topic/2924589)）；10 月 25 日又有一位续费被拦的用户，iPhone 上不行，换 iPad 在 App 里订阅直接成功（[出处](https://linux.do/t/topic/2924589/68)）。知乎一篇同类教程的作者也说，自己等满时间还是失败，换了一台设备就成功了；但同一个评论区里也有人换了设备照样失败。不保证有效。
-- 卡了好几轮的，可以请在线客服把问题升级给高级专员（senior advisor）。有用户卡了四五轮后这样要求，客服把审核转给高级专员、约了回电时间，第二天早上一位美国的高级专员打来电话（全程英文，+86 手机号可以），还是让等 72 小时，但这一轮之后解除了（[出处](https://linux.do/t/topic/2924589/66)）。只有这一个例子，句子见[聊天时用得上的话](#聊天时用得上的话)。
+- 卡了好几轮的，可以请在线客服把问题升级给高级专员（senior advisor）。有用户卡了四五轮后这样要求，客服把审核转给高级专员、约了回电时间，第二天早上一位美国的高级专员打来电话（全程英文，+86 手机号可以），还是让等 72 小时，但这一轮之后解除了（[出处](https://linux.do/t/topic/2924589/66)），句子见[聊天时用得上的话](#聊天时用得上的话)。也有不管用的：11 月 8 日一位读者升 Pro 100，和 Apple 的高级专员谈过以后又等了 24 小时，还是付不了（[读者 Issue 回复](https://github.com/Avarce/apple-purchase-not-completed/issues/1#issuecomment-6712166499)）。
 - [换一条不经过这个 Apple 账户的路](#不想等怎么办)。
 
 ## 聊天时用得上的话
@@ -276,13 +281,15 @@ Could you please escalate my case to a senior advisor?
 - 正常用手机，继续用已经生效的订阅和 ChatGPT 免费版。
 - 用不经过这个 Apple 账户的渠道开通。
 
-「不要做任何购买」是客服的原话（图 12）。「每试一次重新计时」和「中途兑换礼品卡也会重新计时」是用户的说法（[出处](https://linux.do/t/topic/2848813)），我们没法验证，按保守的来。不改账户资料是我们的建议，审核期间账户变动越少越好。
+「不要做任何购买」是客服的原话（图 13）。「每试一次重新计时」和「中途兑换礼品卡也会重新计时」是用户的说法（[出处](https://linux.do/t/topic/2848813)），我们没法验证，按保守的来。不改账户资料是我们的建议，审核期间账户变动越少越好。
 
-## 要等多久：24 个案例
+## 要等多久：27 个案例
 
 | 日期（2026） | 订阅什么 | 怎么处理的 | 结果 |
 | --- | --- | --- | --- |
-| 作者本人 | — | 找在线客服说明情况 | 客服调整了账户，让等 48 小时，期间不要购买（图 12） |
+| 作者本人 | — | 找在线客服说明情况 | 客服调整了账户，让等 48 小时，期间不要购买（图 13） |
+| 作者的朋友 | — | 联系客服，客服说等 72 小时；到点还是失败，又联系一次 | 再等了几天，成功 |
+| 11 月 8 日 | Plus 升 Pro 100 | 等满 72 小时；又和 Apple 的高级专员（senior advisor）谈过，再等 24 小时 | 还是付不了（[读者 Issue 回复](https://github.com/Avarce/apple-purchase-not-completed/issues/1#issuecomment-6712166499)） |
 | 10 月 29 日 | 未写明（同一位读者的三个账户） | 三个账户各被拦一次，提交申请后等 | 一个 72 小时后直接成功；一个等待期间又试了几次，72 小时后收到通过的邮件却还是付不了，再申请一轮才成功；一个 72 小时没过，放着不动，约 144 小时成功（[读者 Issue 回复](https://github.com/Avarce/apple-purchase-not-completed/issues/1#issuecomment-6486909624)） |
 | 10 月 26 日 | 升 Pro | 9 月起等了 6 轮审核，也找过人工客服 | 还是升不上去（[读者 Issue](https://github.com/Avarce/apple-purchase-not-completed/issues/2)） |
 | 10 月 26 日 | 未写明 | 付款被拦，提交申请 | 第二天 Apple 账户被停用，礼品卡余额取不出来（[帖子](https://linux.do/t/topic/2924589/75)） |
@@ -299,6 +306,7 @@ Could you please escalate my case to a senior advisor?
 | 9 月 30 日 | 未写明 | 找在线客服 | 客服说现在必须有一个付款方式（知乎评论） |
 | 9 月 22 日 | 未写明 | 找客服 | 要等满 72 小时；问等完是否一定能买，客服说不确定（同上） |
 | 9 月 11 日 | Plus 升 Pro 20× | 提交申请，中间给客服打了两次电话 | 先收到要等 72 小时的邮件，3 天后收到审核通过的邮件，升级成功（同上） |
+| 9 月 13 日 | Plus 升 Pro | 提交申请，3 天后收到审核通过的邮件，期间没再试 | 再升级还是弹「购买未完成」；同帖另一位用户说，自己三个美区账户都是联系美区人工客服、说明无法付款，三天后就能付了（[帖子](https://linux.do/t/topic/2895604)） |
 | 9 月 2 日 | ChatGPT Plus | 点「继续」打不开，改打电话，通话 21 分钟 | 客服说等 72 小时；9 月 4 日订阅成功（[帖子](https://linux.do/t/topic/2848813)） |
 | 9 月 19 日 | ChatGPT Plus | 提交申请 | 72 小时后收到邮件，再过 10 小时订阅成功（[帖子](https://linux.do/t/topic/2924589)） |
 | 9 月 21 日 | 未写明 | 提交申请，等满 72 小时没消息，再找在线客服 | 客服让再等 11 小时，之后成功（同上） |
@@ -307,7 +315,7 @@ Could you please escalate my case to a senior advisor?
 | 9 月 21 日 | Plus 升 Pro | 一直等 | 四轮 72 小时仍失败，两个账户里压着 200 多美元余额（[帖子](https://linux.do/t/topic/2924589)） |
 | 9 月 19 日 | 未写明 | 提交申请 | 两个账户都是提交后能付款，两天后被停用（同上） |
 
-从这 24 条能看出来：
+从这 27 条能看出来：
 
 - Plus 这个金额，一轮基本能过。Pro 明显更难，Pro 100 和 Pro 200 都有人被拦，升 Pro 500 也有人遇到（[帖子](https://linux.do/t/topic/3021419)）。
 - 72 小时是常见的下限，到了也可能还要再等：有人第 5 天才过，有人约 144 小时，也有人等了 6 轮还没过。客服自己也不保证等完一定能买；收到审核通过的邮件也不等于马上能付，10 月 22 日那位两次收到通过的回信，还是付不了。
@@ -315,8 +323,8 @@ Could you please escalate my case to a senior advisor?
 - 等待期间反复付款会拖长：10 月 16 日那位第二次心急一直试，72 小时后仍付不了；10 月 29 日那位读者的三个账户里，等待时又试了几次的那个，多等了一轮。
 - 续费也会被拦，不只是第一次订阅。
 - 换设备有时管用：9 月 21 日和 10 月 25 日两位都是 iPhone 不行、iPad 直接成功；也有人换了设备照样失败。
-- 卡了好几轮的，有人请客服升级给高级专员，这一轮之后解除了。只有这一例。
-- 要不要联系客服，论坛里有两种意见。有人认为联系了也只是让你等，放够时间一样能买；也有人是联系之后才恢复的。作者自己是联系客服后拿到明确答复的。弹窗本身要求提交申请，所以我们建议提交一次，不要反复提交。
+- 卡了好几轮的，有人请客服升级给高级专员，这一轮之后解除了；也有人和高级专员谈过，又等一天还是付不了。
+- 要不要联系客服，有两种说法。Apple 支持页写明联系客服不能加快审核；有用户问过在线客服，回复是只能等、他们没有权限（[帖子](https://linux.do/t/topic/3139703/5)），也有客服说只能帮忙转给审核团队（[帖子](https://linux.do/t/topic/3032121/6)）。另一边，作者自己是联系客服后拿到明确答复的，9 月 13 日那个帖子里也有人三个账户都是联系客服后能付的。我们还遇到过点「继续」提交后，收到审核已通过的回复，结果还是买不了。所以我们推荐：弹窗上点「以后再说」，找在线客服处理一次，然后等，不要反复提交。
 
 ## 升级 Pro 时被拦
 
@@ -331,7 +339,7 @@ Could you please escalate my case to a senior advisor?
 
 ## 两个风险
 
-1. **苹果账户可能被停用。** 案例表里有两例：9 月 19 日两个账户提交后能付款、两天后被停用；10 月 26 日有人提交申请第二天账户就被停用，礼品卡余额取不出来。知乎一篇同类教程的评论区里，5 到 7 月至少有四位读者说，联系客服后账户被关闭，客服不说明原因，充进去的钱也拿不回来。原因没有公开，帖子里的猜测是审核时发现了账户的其他问题。如果你的礼品卡来自不明渠道，审核对你不利。
+1. **苹果账户可能被停用。** 案例表里有两例：9 月 19 日两个账户提交后能付款、两天后被停用；10 月 26 日有人提交申请第二天账户就被停用，礼品卡余额取不出来。知乎一篇同类教程的评论区里，5 到 7 月至少有四位读者说，联系客服后账户被关闭，客服不说明原因，充进去的钱也拿不回来。Apple 没有公开原因。按我们接触到的情况，这类情况更像是账户本身有问题，不是找客服造成的：比如买来的批量注册账户，或者充进去的礼品卡来源不明。**账户自己注册最稳**，礼品卡从正规渠道买；这样的账户，按[第 2 步](#第-2-步提交一次申请)正常找客服处理就行。
 2. **余额可能压在账户里。** 审核不通过时，已经充进去的礼品卡余额花不出去，也不能提现。
 
 ## 不想等怎么办
@@ -358,7 +366,8 @@ Could you please escalate my case to a senior advisor?
 
 下面几条来自用户经验，不保证有效：
 
-- 新注册的账户，或者刚改完地区和账单地址的账户，别当天充值当天就订阅，先放几天。
+- 用自己注册的美区 Apple 账户，别买别人批量注册好的现成账户。这是我们的经验，见[两个风险](#两个风险)。
+- 新注册的 Apple 账户先养几天：正常登录、使用，在 App Store 下载几个免费 App，过几天再充值、订阅。这是作者和朋友的经验，论坛里也有人说，新账户兑换礼品卡后别马上用，放一段时间再用不容易被拦（[帖子](https://linux.do/t/topic/3032121/2)）。刚改完地区和账单地址的账户也一样，别当天充值当天就订阅。
 - 礼品卡从正规渠道买。支付宝里 Pockyt 的买法、截图和现在的在售面额，见 [ChatGPT Plus 国内充值指南](https://github.com/Avarce/chatgpt-plus-china-guide#支付宝买美区礼品卡实测流程附截图)。
 - 被拦过一次就别连着点，多试只会让情况更糟。
 - 准备升级 Pro 时，先确认这个账户近期能正常完成小额购买，再充大额余额。
@@ -371,7 +380,21 @@ Could you please escalate my case to a senior advisor?
 
 算。论坛里说的「苹果风控」「72 小时风控」「被苹果风控了」，指的就是这条购买审核。
 
-Apple 没有公布要多久。客服给的多是 48 到 72 小时。Plus 一般一轮就能过，升 Pro 明显更难，有人第 5 天、约 144 小时才过，也有人等了六轮还没过，具体见[要等多久](#要等多久24-个案例)。有两点要注意：等待期间反复付款会拖长时间；收到审核通过的邮件，也不一定马上能付，10 月 12 日就有人收到邮件后再付款，还是要求审核。
+Apple 没有公布要多久。客服给的多是 48 到 72 小时。Plus 一般一轮就能过，升 Pro 明显更难，有人第 5 天、约 144 小时才过，也有人等了六轮还没过，具体见[要等多久](#要等多久27-个案例)。有两点要注意：等待期间反复付款会拖长时间；收到审核通过的邮件，也不一定马上能付，10 月 12 日就有人收到邮件后再付款，还是要求审核。
+
+</details>
+
+<details>
+<summary><strong>提交以后会发邮件通知结果吗？</strong></summary>
+
+页面上是这么写的：点「继续」提交后的「申请已提交」页面说，处理完成后会通过你 Apple 账户的邮箱联系你（图 3）。但案例里不是每个人都收到了。有用户收到的邮件标题是 `Apple Account Review is Complete`（[出处](https://linux.do/t/topic/3042443)）。邮件可能比 72 小时晚一点到，等满 72 小时没收到，可以自己试一次。收到邮件也不等于一定能付，见上一条。
+
+</details>
+
+<details>
+<summary><strong>弹窗上该点「继续」还是「以后再说」？</strong></summary>
+
+推荐点「以后再说」，然后找在线客服，步骤见[第 2 步](#第-2-步提交一次申请)。点「继续」是 Apple 支持页写的提交办法（[Apple 说明](https://support.apple.com/zh-cn/108095)），但我们遇到过这样提交以后，收到审核已通过的回复，还是买不了。已经点了「继续」、看到「申请已提交」的，就等着，等满时间再试一次（[第 4 步](#第-4-步再试一次)），还不行再找客服；等待期间别再点订阅。
 
 </details>
 
@@ -433,7 +456,7 @@ Apple 没有公布要多久。客服给的多是 48 到 72 小时。Plus 一般�
 <details>
 <summary><strong>自动续费时被拦，会员过期了怎么办？</strong></summary>
 
-10 月 11 日有人反映：几个月来一直用礼品卡余额续费，这次续费弹出审核，会员直接过期了（[帖子](https://linux.do/t/topic/3008216)）。处理办法和第一次订阅一样：停手，提交一次申请，等。余额还在账户里。
+10 月 11 日有人反映：几个月来一直用礼品卡余额续费，这次续费弹出审核，会员直接过期了（[帖子](https://linux.do/t/topic/3008216)）。处理办法和第一次订阅一样：停手，找在线客服处理一次，然后等。余额还在账户里。
 
 Apple 没有公开续费被拦以后会不会自动重扣。等满时间先看会员恢复了没有；没恢复，再到 ChatGPT App 里手动订阅一次，只试一次。
 
@@ -473,28 +496,29 @@ If the ChatGPT iOS app shows **"Purchase Not Completed. Submit a request to Appl
 
 1. It is Apple's purchase review. Your balance and the app are fine.
 2. Stop retrying, and do not redeem more gift cards.
-3. Submit one request: tap **Continue**, or open [support.apple.com/billing](https://support.apple.com/billing), scroll to the bottom and choose Get started → More → Unable to purchase → Continue → Get more help → Live Chat.
-4. Wait the 48 to 72 hours the advisor gives you and make no purchases in that time.
-5. Try once more. ChatGPT Pro is reviewed more often than Plus and sometimes takes several rounds. A few users report disabled accounts.
+3. Get the review handled once. We recommend tapping **Not Now** and contacting Apple Support (steps below): we have seen a request submitted with Continue come back as approved while the purchase still failed. Tapping **Continue** is the method on [Apple's support page](https://support.apple.com/en-us/108095) (updated October 22, 2026), which also says contacting Apple Support won't speed up the review; a confirmation page then says it may take up to 72 hours and that Apple will email you. If Continue does not open, contact Apple Support rather than retrying the purchase.
+4. Wait 72 hours (or the time an advisor gives you) and make no purchases in that time. Some users get an email titled "Apple Account Review is Complete", sometimes a little after 72 hours.
+5. Try once more. ChatGPT Pro is reviewed more often than Plus and sometimes takes several rounds. A few users report disabled accounts; in our view these look like accounts bought from bulk sellers or gift cards from unknown sources.
 
-The same review can stop an auto-renewal, so a subscription can lapse even though the balance is enough. If Live Chat is not offered, try again later, choose Call us, or call Apple's mainland China line (400-666-8800) for directions. US accounts are handled by US Apple Support, so mainland advisors may transfer you. In the chat the advisor asks for a Support PIN (generate it at the bottom of account.apple.com), then handles the request and tells you how long to wait. If several rounds fail, ask the advisor to escalate your case to a senior advisor; one user's block cleared in the round after a senior advisor called back.
+To reach Apple Support: open [support.apple.com/billing](https://support.apple.com/billing), scroll to the bottom and choose Get started → More → Unable to purchase → Continue → Get more help → Live Chat. The same review can stop an auto-renewal, so a subscription can lapse even though the balance is enough. If Live Chat is not offered, try again later, choose Call us, or call Apple's mainland China line (400-666-8800) for directions. US accounts are handled by US Apple Support, so mainland advisors may transfer you. In the chat the advisor asks for a Support PIN (generate it at the bottom of account.apple.com), then handles the request and tells you how long to wait. If several rounds fail, ask the advisor to escalate your case to a senior advisor; one user's block cleared in the round after a senior advisor called back, while another reader was still blocked a day after speaking with senior advisors.
 
 ## 资料来源
 
-**Apple：** [Billing and Subscriptions](https://support.apple.com/billing) · [Contact Apple Support](https://support.apple.com/en-us/106932) · [What you can buy with your Apple Gift Card or Apple Account balance](https://support.apple.com/en-us/HT211187) · [If you're asked to confirm your Apple Account when you contact Apple（Support PIN）](https://support.apple.com/en-us/102425) · Apple 社区：[Purchase Not Completed. Contact Apple Support for assistance.](https://discussions.apple.com/thread/256326371) · [Failed purchase of ChatGPT Plus with Apple Gift Card](https://discussions.apple.com/thread/256335168)
+**Apple：** [如果你的付款方式在 App Store 或 iTunes Store 中被拒绝](https://support.apple.com/zh-cn/108095)（「购买未完成」一节；中文版 10 月 24 日、[英文版](https://support.apple.com/en-us/108095) 10 月 22 日更新，11 月 9 日读到；英文版 9 月 16 日的存档里还没有这一节） · [Billing and Subscriptions](https://support.apple.com/billing) · [Contact Apple Support](https://support.apple.com/en-us/106932) · [What you can buy with your Apple Gift Card or Apple Account balance](https://support.apple.com/en-us/HT211187) · [If you're asked to confirm your Apple Account when you contact Apple（Support PIN）](https://support.apple.com/en-us/102425) · Apple 社区：[Purchase Not Completed. Contact Apple Support for assistance.](https://discussions.apple.com/thread/256326371) · [Failed purchase of ChatGPT Plus with Apple Gift Card](https://discussions.apple.com/thread/256335168)
 
 **OpenAI：** [ChatGPT iOS app: Upgrading to a paid subscription](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription) · [About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)（10 月 29 日更新） · Codex 负责人 Tibo：[Pro 三档额度翻倍](https://x.com/thsottiaux/status/2115850175868727621)、[Pro 500 约为 Plus 的 50 倍](https://x.com/thsottiaux/status/2115851811576053881)（美国时间 10 月 29 日）
 
-**用户案例（LINUX DO）：** [Apple 礼品卡充值 GPT Plus 失败的一个解决方法](https://linux.do/t/topic/2848813)（9 月 2 日） · [Apple订阅gpt被风控，礼品卡不是最佳订阅渠道了](https://linux.do/t/topic/2851005)（9 月 3 日） · [Apple ID 订阅 GPT，提示提交申请至 Apple 支持以供审核](https://linux.do/t/topic/2924589)（9 月 19 日，回复读到 10 月 26 日） · [关于IOS订阅GPT需要审核的问题](https://linux.do/t/topic/3008216)（10 月 11 日） · [apple store 订阅 gpt 被风控，72 小时申诉通过后仍无法付费](https://linux.do/t/topic/3010934)（10 月 12 日） · [关于苹果订阅 gpt 触发 72 小时风控的问题](https://linux.do/t/topic/3032121)（10 月 16 日） · [apple这是不让我花钱啊，关于礼品卡开通gpt pro500](https://linux.do/t/topic/3021419)（10 月 14 日） · [苹果订阅chatgptpro失败，苹果账户审核已完成后仍然无法订阅](https://linux.do/t/topic/3072781)（10 月 25 日）
+**用户案例（LINUX DO）：** [Apple 礼品卡充值 GPT Plus 失败的一个解决方法](https://linux.do/t/topic/2848813)（9 月 2 日） · [Apple订阅gpt被风控，礼品卡不是最佳订阅渠道了](https://linux.do/t/topic/2851005)（9 月 3 日） · [美区apple id 购买未完成 等待3天后再升级pro 还是不行](https://linux.do/t/topic/2895604)（9 月 13 日） · [Apple ID 订阅 GPT，提示提交申请至 Apple 支持以供审核](https://linux.do/t/topic/2924589)（9 月 19 日，回复读到 10 月 26 日） · [关于IOS订阅GPT需要审核的问题](https://linux.do/t/topic/3008216)（10 月 11 日） · [apple store 订阅 gpt 被风控，72 小时申诉通过后仍无法付费](https://linux.do/t/topic/3010934)（10 月 12 日） · [关于苹果订阅 gpt 触发 72 小时风控的问题](https://linux.do/t/topic/3032121)（10 月 16 日） · [apple这是不让我花钱啊，关于礼品卡开通gpt pro500](https://linux.do/t/topic/3021419)（10 月 14 日） · [苹果订阅chatgptpro失败，苹果账户审核已完成后仍然无法订阅](https://linux.do/t/topic/3072781)（10 月 25 日） · [苹果"购买未成功"，该不该找客服](https://linux.do/t/topic/3139703)（11 月 8 日）；页面和邮件的英文原文引自 [土区iOS支付遭遇苹果风控，审核要 72 小时？](https://linux.do/t/topic/3042443)（10 月 19 日，订阅的是 Gemini，不算进案例）
 
-**读者 Issue：** [#1 这个似乎只会在充值 gpt 的时候触发](https://github.com/Avarce/apple-purchase-not-completed/issues/1)（10 月 21 日，回复读到 10 月 29 日） · [#2 尝试了无数方法，联系人工客服和提交审核到 Apple Support 都无法购升级 pro](https://github.com/Avarce/apple-purchase-not-completed/issues/2)（10 月 26 日）
+**读者 Issue：** [#1 这个似乎只会在充值 gpt 的时候触发](https://github.com/Avarce/apple-purchase-not-completed/issues/1)（10 月 21 日，回复读到 11 月 8 日） · [#2 尝试了无数方法，联系人工客服和提交审核到 Apple Support 都无法购升级 pro](https://github.com/Avarce/apple-purchase-not-completed/issues/2)（10 月 26 日） · [#4 已经提交了，是会发邮件通知结果吗](https://github.com/Avarce/apple-purchase-not-completed/issues/4)（11 月 3 日，图 3 按这里的截图绘制）
 
 **用户案例（知乎）：** 一篇同类教程的评论区（读到 11 月 1 日，10 月 13 日以后没有新案例）
 
-**作者本人：** 图 3 至图 9 的操作截图，图 10、图 12 的客服对话，图 11 的账户页面截图。
+**作者本人：** 图 4 至图 10 的操作截图，图 11、图 13 的客服对话，图 12 的账户页面截图。
 
 ### 更新记录
 
+- **2026-11-09：** Apple 支持页 10 月下旬新加的一节（英文版 10 月 22 日、中文版 10 月 24 日）写明：看到「购买未完成」选「继续」提交审核，联系 Apple 支持也不能加快。第 1、2 步改成推荐在弹窗上点「以后再说」、找在线客服处理（我们遇到过点「继续」提交后收到审核已通过的回复，还是买不了），点「继续」也可以；加上点「继续」后的「申请已提交」页面（图 3，示意图，原来的图 3 到图 12 顺延为图 4 到图 13）；找客服一段说明客服也没法马上解除。第 4 步和常见问题补上审核通过的邮件标题和邮件可能晚到；常见问题新增「弹窗上该点继续还是以后再说」「会发邮件通知吗」。案例从 24 个补到 27 个：作者的朋友第二次联系客服后再等几天成功；11 月 8 日读者找过高级专员仍付不了；9 月 13 日收到通过邮件仍付不了，同帖有人联系美区客服后能付。「为什么会被拦」改用 Apple 支持页的原话，删掉 9 月 30 日知乎评论的转述；「两个风险」补上我们的判断：账户被停用更像是买来的批量注册账户、来源不明的礼品卡出的问题，自己注册的账户正常找客服就行；「下次怎么少遇到」加上用自己注册的账户、新账户先养几天。案例总结和 English summary 随之更新。在线客服的入口这次没有重走。
 - **2026-11-01：** 案例从 17 个补到 24 个，都是 10 月 20 日到 29 日的：升 Pro 200 被拦第 5 天成功；两次收到审核通过的回信仍付不了，网页端改订阅也不行；续费被拦，换 iPad 成功；卡了四五轮后请客服升级给高级专员，这一轮之后解除；提交申请第二天账户被停用；读者等了 6 轮还没升上 Pro；同一位读者三个账户，72 小时到约 144 小时不等。「还是不行」一步加升级给高级专员的做法，「聊天时用得上的话」加对应的英文句子；补充一条：美区账户的问题由美国的 Apple 支持处理，作者的一位朋友在线联系大陆客服时，对方说美区账户处理不了，转给了美国的客服；打电话的说明随之补充（第 2 步、第 6 步和两条常见问题）；案例总结、「升级 Pro 时被拦」、两个风险和两条常见问题随之更新。审核流程这次没有重走。
 - **2026-10-30：** OpenAI 10 月 29 日把 Pro 的 Work / Codex 额度翻倍：「升级 Pro 时被拦」补上三档现在约为 Plus 的 10、20、50 倍（Chat 里 GPT-6 Pro 的每周额度 Pro 100、Pro 500 不变），AONIR 入口的 Pro 两档去掉旧倍数、写上新用量，Pro 200 链接换成新地址 `/chatgpt-pro-200/`。审核流程和案例这次没有复核。
 - **2026-10-24：** 案例从 13 个补到 17 个：10 月 21 日读者 Issue（同一账户其他订阅和 Plus 都能买，只有 Pro 200 不行）、10 月 16 日两例（升 Pro 被拦后「更改订阅」成功；反复付款拖长了等待）、10 月 12 日一例（收到审核通过邮件后仍付不了）。常见问题新增三条：这算不算苹果风控、多久解除；两条 iTunes 支持提示的区别；买礼品卡被拒绝不是这个审核。正文几处 Apple 补上「苹果」的叫法。
